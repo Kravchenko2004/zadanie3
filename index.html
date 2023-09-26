@@ -62,66 +62,67 @@
       <li><a href="https://ru.wikipedia.org/wiki/HTML5" rel="noindex">ссылка без индексации</a></li>
     </ol>
     </div>
-    <a id="table"></a>
     <div class="front-block first-table ">
-    <table>
-        <caption>Таблица</caption>
-        <thead>
-        <tr>
-            <th scope="col">1 столбец</th>
-            <th scope="col">2 столбец</th>
-            <th scope="col">3 столбец</th>
-            <th scope="col">4 столбец</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="stroka">
-            <th scope="row">1 строка</th>
-            <td>а че</td>
-            <td>а че а че</td>
-            <td>а ниче</td>
-        </tr>
-        <tr>
-            <th scope="row">2 строка</th>
-            <td>а че</td>
-            <td>а че а че</td>
-            <td>а ниче</td>
-        </tr>
-        <tr class="stroka">
-            <th scope="row">3 строка</th>
-            <td>а че</td>
-            <td>а че а че</td>
-            <td>а ниче</td>
-        </tr>
-        <tr>
-            <th scope="row">4 строка</th>
-            <td>а че</td>
-            <td>а че а че</td>
-            <td>а ниче</td>
-        </tr>
-        <tr class="stroka">
-            <th scope="row">5 строка</th>
-            <td>а че</td>
-            <td>а че а че</td>
-            <td>а ниче</td>
-        </tr>
-        <tr>
-            <th scope="row">6 строка</th>
-            <td>а че</td>
-            <td>а че а че</td>
-            <td>а ниче</td>
-        </tr>
-        </tbody>
-        <tfoot>
-        <tr class="stroka">
-            <th scope="row" colspan="2">Итого</th>
-            <td colspan="2">и че и че</td>
-        </tr>
-        </tfoot>
-    </table>
+        <table>
+            <caption>таблица</caption>
+            <thead>
+            <tr>
+                <th scope="col">1 колонка</th>
+                <th scope="col">2 колонка</th>
+                <th scope="col">3 колонка</th>
+                <th scope="col">4 колонка</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr class="chet-item">
+                  <th scope="row">1 урок</th>
+                  <td>дата</td>
+                  <td>задание</td>
+                  <td>текст задания</td>
+              </tr>
+              <tr>
+                  <th scope="row">2 урок</th>
+                  <td>дата</td>
+                  <td>задание</td>
+                  <td>текст задания</td>
+              </tr>
+              <tr class="chet-item">
+                  <th scope="row">3 урок</th>
+                  <td>дата</td>
+                  <td>задание</td>
+                  <td>текст задания</td>
+              </tr>
+              <tr><a id="table"></a>
+                  <th scope="row">4 урок</th>
+                  <td>дата</td>
+                  <td>задание</td>
+                  <td>текст задания</td>
+              </tr>
+              <tr class="chet-item">
+                  <th scope="row">5 урок</th>
+                  <td>дата</td>
+                  <td>задание</td>
+                  <td>текст задания</td>
+              </tr>
+              <a id="table"></a>
+              <tr>
+                  <th scope="row">6 урок</th>
+                  <td>дата</td>
+                  <td>задание</td>
+                  <td>текст задания</td>
+                </tr>
+              </tbody>
+              <tfoot>
+              <tr class="chet-item">
+                  <th scope="row" colspan="2">Итоги</th>
+                  <td colspan="2">  </td>
+              </tr>
+              </tfoot>
+          </table>
     </div>
-    <a id="form"></a>
+   
     <form method="post" action="/" class="forms front-block">
+        <a id="form"></a>
       <br><strong>Как вас зовут?</strong></br>
       <input maxlength="25" size="40">   
       <p>Email: <input type="email" name="login" required></p>
@@ -150,7 +151,7 @@
       <input type="submit" value="Отправить" required></p>
       </p>
     
-     <a id="form"></a>
+     
     </form>
     </div>
 </main>
